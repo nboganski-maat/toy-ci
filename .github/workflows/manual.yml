@@ -1,0 +1,9 @@
+name: Hola Manual
+
+on: workflow_dispatch
+
+jobs:
+  my-action:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "it runs !"

@@ -1,4 +1,4 @@
-name: Waou
+name: On PR merged
 
 on:
   pull_request:

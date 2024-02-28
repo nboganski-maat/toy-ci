@@ -1,6 +1,9 @@
 name: Hola Manual
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    branches:
+      - main
 
 jobs:
   my-action:
